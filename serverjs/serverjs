@@ -1,0 +1,6 @@
+app.post('/repote',(req, res)=>){const mensaje=req. body.mensaje;
+    res.json({
+        estado:"reporte recibido",
+        mensaje: mensaje});
+    })
+}
